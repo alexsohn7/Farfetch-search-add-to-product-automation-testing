@@ -1,4 +1,4 @@
-#I will be automating the basic user flow of when the end user conducts a search for a designer name.  
+I will be automating the basic user flow of when the end user conducts a search for a designer name.  
 
 Functionality to be tested without access to the backend:
 
