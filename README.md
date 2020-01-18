@@ -1,3 +1,5 @@
+A fun little side project that I am creating to help me learn Robot Framework and Python as an automation stack.  A way of learning Keyword driven frameworks and practice creating test cases from scratch. 
+
 I will be automating the basic user flow of when the end user conducts a search for a designer name.  
 
 Functionality to be tested without access to the backend:
@@ -31,6 +33,4 @@ Register Modal:
 • Form Validation functions properly
 • "Log in here" link functions properly
 • "Find out more" link functions properly
-• "Privacy Policy" link functions properly
-
-A fun little side project that I am creating to help me learn Robot Framework and Python as an automation stack.  
+• "Privacy Policy" link functions properly 
