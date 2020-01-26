@@ -7,13 +7,14 @@ ${SEARCH_ICON} =  css:button.icon-search
 
 *** Keywords *** 
 Verify search field is displayed on the Landing Page
-    Wait Until Page Contains Element  ${SEARCH_FIELD}  
+    Wait Until Page Contains Element  ${SEARCH_FIELD}  10s
     Element Should Be Visible  ${SEARCH_FIELD} 
 
 Verify the maginifying glass search icon is displayed in the search field
     Element Should Be Visible  ${SEARCH_ICON}
 
 Click on search field 
+    Wait Until Page Contains Element  ${SEARCH_FIELD}  10s
     Click Element  ${SEARCH_FIELD}
 
 Verify the search field wrapper expands
